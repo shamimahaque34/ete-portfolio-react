@@ -1,5 +1,13 @@
+import PageTitle from "../../componenets/portfolio/PageTitle";
+import Portfolios from "../../componenets/portfolio/Portfolios";
+import Testimonial from "../../componenets/portfolio/Testimonial";
+
 export default function Portfolio(){
     return(
-        <h3>This is portfolio page</h3>
+        <>
+        <PageTitle></PageTitle>
+        <Portfolios></Portfolios>
+        <Testimonial></Testimonial>
+        </>
     )
 }
