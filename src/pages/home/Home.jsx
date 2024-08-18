@@ -1,8 +1,14 @@
+import Banner from "../../componenets/home/Banner";
+import ProjectIdea from "../../componenets/home/ProjectIdea";
+import Testimonial from "../../componenets/home/Testimonial";
+
 export default function Home() {
     
     return (
       <>
-      <h3>This is home page</h3>
+      <Banner></Banner>
+      <ProjectIdea></ProjectIdea>
+      <Testimonial></Testimonial>
       </>
     );
   }
