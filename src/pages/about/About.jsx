@@ -1,6 +1,10 @@
-
+import PageTitle from "../../componenets/about/PageTitle";
+import AboutMe from "../../componenets/about/AboutMe";
 export default function About(){
     return(
-        <h3>This is about page</h3>
+        <>
+        <PageTitle></PageTitle>
+        <AboutMe></AboutMe>
+        </>
     )
 }
