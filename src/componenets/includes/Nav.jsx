@@ -25,7 +25,7 @@ export default function Nav(){
 
       <li className="nav-item">
         <NavLink to="/service" className={({ isActive }) =>
-                isActive ? "nav-link-active " : "nav-link "}>Service</NavLink>
+                isActive ? "nav-link-active " : "nav-link "}>Services</NavLink>
       </li>
 
       <li className="nav-item">
